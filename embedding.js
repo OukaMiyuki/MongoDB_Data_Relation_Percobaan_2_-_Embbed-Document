@@ -16,6 +16,12 @@ const Author = mongoose.model('Author', authorSchema);
 const Course = mongoose.model('Course', new mongoose.Schema({
   name: String,
   author: authorSchema
+
+  //if you want to set is as required, then use this
+  // author: {
+  //   type: authorSchema,
+  //   required: true
+  // }
 }));
 
 async function createCourse(name, author) {
