@@ -72,3 +72,5 @@ createCourse('Node Course', new Author({ name: 'Mosh', bio: 'cool author', websi
 // updateAuthor('5f18f6313ddd003d4c121ddc', 'Jane Doe');
 
 //but however, both have the same result
+
+//Read more about nodejs update operator : https://docs.mongodb.com/manual/reference/operator/update/
